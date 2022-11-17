@@ -5,7 +5,7 @@ const Index = () => (
 		<h1 className="text-7xl pb-10">Welcome To Remix</h1>
 		<h2>Let's build something! 👨‍💻</h2>
 		<Link to="/blog" className="bg-blue-700 p-2 mt-4">
-			Check out my cool blog
+			Check out my cool Blog
 		</Link>
 	</div>
 );
