@@ -23,8 +23,7 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--scope=${{ secrets.VERCEL_SCOPE }} --prod'
           scope: ${{ secrets.VERCEL_ORG_ID }}
-          alias-domains: |
-            dnb-stack.vercel.app
+          # alias-domains: |
 
       # - run: yarn
       # - run: yarn cypress:run
