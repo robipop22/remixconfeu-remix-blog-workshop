@@ -24,8 +24,7 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--scope=${{ secrets.VERCEL_SCOPE }}'
           scope: ${{ secrets.VERCEL_ORG_ID }}
-          alias-domains: |
-            dnb-stack.vercel.app
+          # alias-domains: |
 
       # uncomment the next 2 lines if you want your tests to run after the deploy
       # - run: pnpm
